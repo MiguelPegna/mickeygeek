@@ -1,0 +1,16 @@
+# lineas para 000webhosting
+# HTID:21833285: DO NOT REMOVE OR MODIFY THIS LINE AND THE LINES BELOW
+
+# php_value display_errors 1
+# php_flag output_buffering on
+
+# DO NOT REMOVE OR MODIFY THIS LINE AND THE LINES ABOVE HTID:21833285:
+# fin de config 000webhosting
+
+#guarda este archivo como .htaccess para que pueda funcionar los redireccionamientos
+Options All -Indexes
+RewriteEngine on
+
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^(.*)$ index.php?uri=$1 [QSA,L]   #ruta principal del proyecto

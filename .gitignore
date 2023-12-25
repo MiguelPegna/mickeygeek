@@ -1,0 +1,4 @@
+config/config.php
+public/img/banners
+public/img/icons
+libraries/PHPMailer
