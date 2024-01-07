@@ -26,6 +26,7 @@
         <script src="<?= PUBLICDOCS; ?>/js/carrito/cartShop.js"></script>
         <script src="<?= PUBLICDOCS; ?>/js/carrito/addItem.js"></script>
     <?php }?>
+
         
     <footer class="bg-gray-200 mt-10">
         <div class="p-10 bg-gray-800 text-gray-200">

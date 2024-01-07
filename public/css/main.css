@@ -1,4 +1,4 @@
-@import url(https://fonts.bunny.net/css?family=acme:400|allan:700|allerta-stencil:400);
+@import url(https://fonts.bunny.net/css?family=acme:400|allan:700|allerta-stencil:400|vt323:400);
 @media (max-width: 280px) {
   body{
     min-width: 280px;
@@ -16,6 +16,10 @@ body{
 
 .font-price{
     font-family: 'Allerta Stencil', sans-serif;
+}
+
+.font-px{
+  font-family: 'VT323', monospace;
 }
 
 .resaltar{

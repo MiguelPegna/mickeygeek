@@ -2,6 +2,9 @@
     
     const bodyBgColor = '#191a1d';
     const navBgColor = '#23262c';
+
+    const txtColInput = '#030712';
+    
     const colorMetro50 = '#fff6ec';
     const colorMetro100 = '#ffecd3';
     const colorMetro200 = '#ffd4a5';

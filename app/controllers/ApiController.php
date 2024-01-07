@@ -24,4 +24,10 @@
             echo json_encode($data, JSON_UNESCAPED_UNICODE);
             die();
         }
+
+        public function catalog(){
+            $data =  $this->model->selectCatalog();
+            echo json_encode($data, JSON_UNESCAPED_UNICODE);
+            die();
+        }
     }
